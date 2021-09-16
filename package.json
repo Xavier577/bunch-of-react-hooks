@@ -1,0 +1,39 @@
+{
+  "name": "bunch-of-react-hooks",
+  "version": "1.0.3",
+  "description": "custom react hooks",
+  "types": "lib/bunch-of-react-hooks.d.ts",
+  "main": "lib/bunch-of-react-hooks.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "pre": "tsc && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavier577/bunch-of-react-hooks.git"
+  },
+  "keywords": [
+    "custom-react-hook-libraries",
+    "react-hook-libraries",
+    "custom-react-hooks"
+  ],
+  "author": "Joseph Tsegen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xavier577/bunch-of-react-hooks/issues"
+  },
+  "homepage": "https://github.com/Xavier577/bunch-of-react-hooks#readme",
+  "dependencies": {
+    "@types/node": "^16.9.1",
+    "@types/react": "^17.0.21"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
